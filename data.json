@@ -1,23 +1,6 @@
 {
  "items": [
   {
-   "id": "s1",
-   "type": "flash",
-   "title": "Sample: Piaget ke charan",
-   "desc": "",
-   "cat": "Pedagogy",
-   "cards": [
-    [
-     "Piaget ka pehla charan?",
-     "Sensorimotor (0–2 varsh)"
-    ],
-    [
-     "Concrete operational kab hota hai?",
-     "Lagbhag 7–11 varsh"
-    ]
-   ]
-  },
-  {
    "id": "s2",
    "type": "quiz",
    "title": "Sample: Bloom's Taxonomy",
