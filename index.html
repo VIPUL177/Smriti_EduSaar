@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Smriti EduSaar – Learn Better. Understand Deeper. Teach Smarter.</title>
+<meta name="description" content="Educational videos, notes, flashcards, quizzes, mind maps and podcasts for KVS, NVS, CTET, STET, EMRS and other teaching exams.">
+<meta property="og:title" content="Smriti EduSaar"><meta name="theme-color" content="#0f4a3a"><meta property="og:image" content="images/banner.jpg">
+<link rel="icon" href="images/logo.jpg"><link rel="apple-touch-icon" href="images/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<script>function imgFb(e){var f=(e.getAttribute("src")||"").split("/").pop();if(!e.dataset.t&&f){e.dataset.t=1;e.src=f}else e.onerror=null}</script>
+<style>
+:root{--grn:#0f4a3a;--mar:#7a1226;--gold:#b8923f;--cream:#fbf6ef;--ink:#23201c;--mut:#6b625a;--line:#e6dccd;--card:#fff;--r:14px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:17px/1.65 Hind,sans-serif;color:var(--ink);background:var(--cream)}
+h1,h2,h3{font-family:'Playfair Display',serif;line-height:1.2;margin:0 0 .5em;color:var(--grn)}
+a{color:inherit}img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1180px;margin:auto;padding:0 20px}
+.skip{position:absolute;left:-999px}.skip:focus{left:10px;top:10px;background:#fff;padding:8px;z-index:99}
+header{position:sticky;top:0;z-index:50;background:#fffdf9ee;backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:68px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font:700 21px 'Playfair Display',serif;color:var(--grn)}
+.brand img{width:48px;height:48px;border-radius:50%;object-fit:cover}.brand b{color:var(--mar)}
+nav ul{list-style:none;display:flex;gap:4px;margin:0;padding:0;align-items:center}
+nav a,nav button.nb{display:block;padding:9px 14px;border-radius:10px;text-decoration:none;font-weight:600;background:none;border:0;font-size:16px;cursor:pointer;color:var(--ink);font-family:inherit}
+nav a:hover,nav button.nb:hover,nav a.on{background:#0f4a3a14;color:var(--grn)}
+.dd{position:relative}.dd .menu{display:none;position:absolute;top:100%;left:0;min-width:230px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:8px;box-shadow:0 12px 30px #0002}
+.dd:hover .menu,.dd.open .menu{display:block}.menu a{font-weight:500}
+.btn{display:inline-block;padding:11px 22px;border-radius:30px;font-weight:700;text-decoration:none;border:2px solid var(--grn);background:var(--grn);color:#fff;cursor:pointer;font:700 16px Hind;transition:.2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 6px 16px #0f4a3a40}
+.btn.o{background:transparent;color:var(--grn)}.btn.m{background:var(--mar);border-color:var(--mar)}.btn.sm{padding:7px 16px;font-size:15px}
+#burger{display:none;background:none;border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:22px;cursor:pointer}
+@media(max-width:860px){#burger{display:block}nav{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);padding:10px 20px}nav.show{display:block}
+nav ul{flex-direction:column;align-items:stretch}.dd .menu{display:block;position:static;box-shadow:none;border:0;padding:0 0 0 14px}.hide-m{display:none}}
+.hb{padding:22px 0 0}.hb img{width:100%;height:auto;aspect-ratio:5/2;object-fit:cover;border-radius:20px;border:1px solid var(--line);box-shadow:0 18px 40px #0f4a3a26}
+.hero{padding:30px 0 22px;text-align:center}.hero h1{font-size:clamp(28px,4.6vw,46px)}.hero p{color:var(--mut);font-size:19px;max-width:620px;margin:0 auto}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.hero .cta{justify-content:center}
+section{padding:46px 0}.sec h2{font-size:clamp(26px,3.5vw,36px)}.sub{color:var(--mut);margin:-4px 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px;display:flex;flex-direction:column;gap:8px;box-shadow:0 2px 8px #0000000a;transition:.2s;text-decoration:none}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 26px #0f4a3a1f;border-color:var(--gold)}
+.ico{width:46px;height:46px;border-radius:12px;background:var(--grn);color:#fff;display:grid;place-items:center}.ico svg{width:24px;height:24px}
+.card h3{font-size:20px;margin:6px 0 0}.card p{margin:0;color:var(--mut);font-size:15.5px}
+.cnt{font-size:13px;font-weight:700;color:var(--mar)}
+.tag{display:inline-block;font-size:12.5px;font-weight:700;padding:2px 10px;border-radius:20px;background:#b8923f26;color:#7a5a12;margin-right:6px}
+.thumb{aspect-ratio:16/9;border-radius:10px;background:linear-gradient(135deg,var(--grn),#1c6b55);display:grid;place-items:center;color:#fff;overflow:hidden}.thumb img{width:100%;height:100%;object-fit:cover}.thumb svg{width:40px;height:40px;opacity:.9}
+.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{border:1px solid var(--line);background:#fff;border-radius:20px;padding:6px 16px;font:600 15px Hind;cursor:pointer;color:var(--ink);text-decoration:none}
+.chip:hover,.chip.on{background:var(--grn);color:#fff;border-color:var(--grn)}
+.empty{border:2px dashed var(--line);border-radius:var(--r);padding:34px;text-align:center;color:var(--mut);background:#fff}
+.band{background:var(--grn);color:#fff;border-radius:22px;padding:42px;display:grid;grid-template-columns:1.4fr 1fr;gap:24px;align-items:center}
+.band h2{color:#fff}.band p{color:#e8f0ec}.band .btn{background:#fff;color:var(--grn);border-color:#fff}
+.about{display:grid;grid-template-columns:1fr 1.3fr;gap:36px;align-items:center}.about img{border-radius:20px;width:100%;max-width:320px;margin:auto;border:4px solid #fff;box-shadow:0 10px 30px #0002}
+.final{background:var(--mar);color:#fff;border-radius:22px;padding:44px;text-align:center}.final h2{color:#fff}.final .btn{background:#fff;color:var(--mar);border-color:#fff}.final .btn.o{background:transparent;color:#fff}
+@media(max-width:860px){.band,.about{grid-template-columns:1fr}}
+.tb{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 18px}.tb input,.tb select{padding:11px 14px;border:1px solid var(--line);border-radius:10px;font:16px Hind;background:#fff;flex:1;min-width:180px;max-width:340px}
+.crumb{font-size:14px;color:var(--mut);margin-bottom:10px}.crumb a{color:var(--mar)}
+.vid{aspect-ratio:16/9;width:100%;border:0;border-radius:10px;margin:8px 0}
+.fc{perspective:900px;max-width:560px;margin:14px auto}.fc>div{min-height:240px;background:#fff;border:2px solid var(--gold);border-radius:18px;display:grid;place-items:center;padding:28px;text-align:center;font:600 22px 'Playfair Display',serif;cursor:pointer}
+.fc .ans{background:var(--grn);color:#fff;border-color:var(--grn)}
+.prog{height:8px;background:var(--line);border-radius:6px;overflow:hidden;margin:10px 0}.prog i{display:block;height:100%;background:var(--gold)}
+.opt{display:block;width:100%;text-align:left;margin:8px 0;padding:13px 16px;border:2px solid var(--line);border-radius:12px;background:#fff;font:17px Hind;cursor:pointer}
+.opt:hover{border-color:var(--grn)}.opt.ok{border-color:#1d6f42;background:#e7f4ec}.opt.bad{border-color:#c4302b;background:#fbeaea}
+.box{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px;max-width:760px;margin:auto}
+#msgs{height:380px;overflow:auto;border:1px solid var(--line);border-radius:12px;padding:14px;background:var(--cream);margin-bottom:12px}
+.m{max-width:85%;padding:10px 14px;border-radius:14px;margin:8px 0;white-space:pre-wrap}.m.u{background:var(--grn);color:#fff;margin-left:auto}.m.a{background:#fff;border:1px solid var(--line)}
+.ask{display:flex;gap:8px}.ask input{flex:1;padding:12px 16px;border:1px solid var(--line);border-radius:30px;font:17px Hind}
+footer{background:#17201c;color:#d9d3c8;margin-top:50px;padding:46px 0 22px}
+footer .fg{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:30px}@media(max-width:860px){footer .fg{grid-template-columns:1fr 1fr}}@media(max-width:520px){footer .fg{grid-template-columns:1fr}}
+footer h4{color:#fff;margin:0 0 10px;font-family:'Playfair Display',serif}footer a{display:block;text-decoration:none;padding:3px 0;color:#d9d3c8}footer a:hover{color:var(--gold)}
+.soc{display:flex;gap:10px;flex-wrap:wrap}.soc a{width:42px;height:42px;border-radius:50%;background:#ffffff14;display:grid;place-items:center;padding:0}.soc a:hover{background:var(--gold);color:#fff}.soc svg{width:21px;height:21px}
+.copy{border-top:1px solid #ffffff22;margin-top:28px;padding-top:16px;font-size:14px;text-align:center}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+.fld{margin:0 0 14px}.fld label{display:block;font-weight:600;margin-bottom:5px;font-size:15.5px}
+.fld input,.fld select,.fld textarea,.box textarea{width:100%;padding:11px 14px;border:1px solid var(--line);border-radius:10px;font:16px Hind,sans-serif;background:#fff;color:var(--ink)}
+.fld textarea,.box textarea{resize:vertical;line-height:1.5}code{background:#0f4a3a14;padding:1px 6px;border-radius:6px;font-size:14px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:700px){.two{grid-template-columns:1fr}}
+.chk{display:flex;gap:10px;align-items:center;margin:8px 0;font-size:15.5px}.chk input{width:18px;height:18px;accent-color:var(--grn)}
+.up{display:block!important;font-weight:500!important;color:var(--mut);margin-top:8px}.up input{border:0!important;padding:6px 0!important}
+.st{min-height:0;margin:0 0 14px;padding:0;border-radius:10px;font-weight:600}.st:not(:empty){padding:10px 14px;background:#0f4a3a14;color:var(--grn)}.st.err:not(:empty){background:#fbeaea;color:#8a1d19}.st.ok:not(:empty){background:#e7f4ec;color:#1d6f42}
+.pv{border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:12px 0;background:var(--cream)}.pv summary{cursor:pointer;font-weight:600;color:var(--grn)}.pv ol{margin:10px 0 4px;padding-left:20px}.pv .tb{margin-top:10px}.pv .cta{margin-top:10px}
+.adm-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.lst{display:grid;gap:10px}.row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 16px}.rt{font-weight:600;margin-top:4px}.ra{display:flex;gap:8px;flex-wrap:wrap}
+.adm-link{font-size:14px!important;opacity:.85}
+#toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:var(--grn);color:#fff;padding:11px 20px;border-radius:30px;font-weight:600;opacity:0;pointer-events:none;transition:.25s;z-index:99;max-width:90vw;text-align:center}#toast.on{opacity:1;transform:translate(-50%,0)}
+nav a.btn{padding:9px 24px;text-align:center;line-height:1.3;display:inline-block}
+</style>
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<header><div class="wrap bar">
+ <a class="brand" href="#/"><img onerror="imgFb(this)" src="images/logo.jpg" alt="Smriti EduSaar logo" width="48" height="48"><span>Smriti <b>EduSaar</b></span></a>
+ <button id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+ <nav id="nav" aria-label="Main"><ul>
+  <li><a href="#/" data-r="home">Home</a></li>
+  <li><a href="https://www.youtube.com/@smriti0607" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></li>
+  <li class="dd"><button class="nb" aria-haspopup="true">Study Material ▾</button><div class="menu" id="menu"></div></li>
+  <li><a href="#/ask" data-r="ask">Ask AI a Doubt</a></li>
+  <li><a class="adm-link" href="#/admin" title="Admin login" aria-label="Admin">🔒 Admin</a></li>
+ <li class="hide-m"><a class="btn m sm" href="https://www.youtube.com/@smriti0607" target="_blank" rel="noopener noreferrer" style="color:#fff">Subscribe</a></li>
+ </ul></nav>
+</div></header>
+<main id="app" tabindex="-1"></main>
+<div id="toast" role="status" aria-live="polite"></div>
+<footer><div class="wrap">
+ <div class="fg">
+  <div><div class="brand" style="color:#fff"><img onerror="imgFb(this)" src="images/logo.jpg" alt="" width="44" height="44"><span>Smriti <b style="color:var(--gold)">EduSaar</b></span></div>
+   <p>Making education, pedagogy, and teaching-exam preparation simpler, clearer, and accessible to every learner.</p><a href="#/about" style="color:var(--gold)">About us →</a></div>
+  <div><h4>Quick Links</h4><a href="#/">Home</a><a href="#/about">About Us</a><a href="#/ask">Ask AI a Doubt</a><a href="#/privacy">Privacy Policy</a><a href="#/admin" class="adm-link">Admin</a><a href="#/terms">Terms of Use</a></div>
+  <div><h4>Study Material</h4><div id="fmenu"></div></div>
+  <div><h4>Follow Us</h4><div class="soc" id="soc"></div></div>
+ </div>
+ <div class="copy">© <span id="yr"></span> Smriti EduSaar. All rights reserved.</div>
+</div></footer>
+
+<script>
+/* ===== Editable site configuration ===== */
+const SITE={
+ youtube:"https://www.youtube.com/@smriti0607",
+ social:[ /* leave url "" to disable an icon */
+  {k:"Instagram",url:"https://www.instagram.com/smriti_edusaar/"},
+  {k:"YouTube",url:"https://www.youtube.com/@smriti0607"},
+  {k:"WhatsApp Channel",url:"https://whatsapp.com/channel/0029VbDXLxV4NVigZkUWx82r"},
+  {k:"Telegram",url:"https://t.me/Smriti_EduSaar"},
+  {k:"Facebook",url:"https://www.facebook.com/profile.php?id=61594857902576"}]
+};
+const I={ /* simple inline icons */
+ video:'<path d="M5 4h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2zm5 4v8l6-4z"/>',
+ pdf:'<path d="M6 2h9l5 5v15H6zM14 2v6h6M9 13h6M9 17h6"/>',
+ flash:'<path d="M3 7h14v11H3zM7 7V4h14v11h-4"/>',
+ quiz:'<path d="M12 3a9 9 0 100 18 9 9 0 000-18zM9.5 9.5a2.5 2.5 0 115 0c0 1.7-2.5 2-2.5 4M12 17v.5"/>',
+ mind:'<circle cx="12" cy="12" r="3"/><circle cx="4" cy="5" r="2"/><circle cx="20" cy="5" r="2"/><circle cx="4" cy="19" r="2"/><circle cx="20" cy="19" r="2"/><path d="M10 10L5.5 6.5M14 10l4.5-3.5M10 14l-4.5 3.5M14 14l4.5 3.5"/>',
+ pod:'<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0014 0M12 18v3"/>'};
+const svg=(p,f)=>`<svg viewBox="0 0 24 24" fill="${f?'currentColor':'none'}" stroke="${f?'none':'currentColor'}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
+const BR={Instagram:'<rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.2"/>',
+ YouTube:'<path d="M21.6 7.2a2.6 2.6 0 00-1.8-1.8C18.2 5 12 5 12 5s-6.200 0-7.800.4A2.600 2.600 0 002.400 7.200C2 8.800 2 12 2 12s0 3.200.4 4.800a2.600 2.600 0 001.800 1.800C5.800 19 12 19 12 19s6.200 0 7.800-.4a2.600 2.600 0 001.800-1.800c.4-1.600.4-4.800.4-4.800s0-3.200-.4-4.800zM10 15V9l5.200 3z"/>',
+ 'WhatsApp Channel':'<path d="M12 2a10 10 0 00-8.600 15L2 22l5.200-1.400A10 10 0 1012 2zm0 2a8 8 0 11-4.300 14.800l-.4-.2-3 .8.8-2.900-.2-.4A8 8 0 0112 4zm-3 3.800c-.3 0-.6.200-.8.500-.5.700-.7 1.600-.2 2.600 1 2.200 2.900 4 5.300 4.800 1 .3 1.900 0 2.500-.7.300-.4.300-.800 0-1l-1.600-.9c-.3-.2-.6-.1-.8.100l-.5.600c-1.200-.5-2.100-1.400-2.700-2.600l.5-.5c.2-.2.300-.5.100-.8l-.8-1.600c-.1-.1-.3-.2-.5-.2z"/>',
+ Telegram:'<path d="M21.5 3.500L2.700 10.800c-.8.300-.8 1.300 0 1.600l4.700 1.500 1.800 5.600c.2.600.9.800 1.400.4l2.600-2.200 4.500 3.300c.6.400 1.300.1 1.500-.6L22.900 4.800c.2-.8-.6-1.600-1.400-1.300zM9.500 13.500l8-5-6.200 6.200-.3 3.300z"/>',
+ Facebook:'<path d="M14 8.500V6.800c0-.8.200-1.200 1.400-1.200H17V2.300C16.600 2.200 15.600 2 14.500 2 12.100 2 10.500 3.500 10.500 6v2.500H8V12h2.500v10H14V12h2.700l.4-3.500z"/>'};
+const T={video:'Videos',pdf:'Notes & PDFs',flash:'Flashcards',quiz:'Quizzes',mind:'Mind Maps',pod:'Podcasts'};
+const D={video:'Understand important concepts through educational lessons and exam-focused explanations.',pdf:'Access organized study notes, revision material, and downloadable educational resources.',flash:'Revise definitions, important facts, concepts, and key questions through active recall.',quiz:'Test your understanding with interactive questions and immediate feedback.',mind:'Connect related concepts through structured visual summaries.',pod:'Learn and revise through educational audio content.'};
+const SLUG={video:'videos',pdf:'notes',flash:'flashcards',quiz:'quizzes',mind:'mindmaps',pod:'podcasts'};
+const UNSLUG=Object.fromEntries(Object.entries(SLUG).map(([a,b])=>[b,a]));
+const CATS=["History","Political Science / Civics","Geography","Economics","Education and Pedagogy","Child Development and Pedagogy","Teaching Aptitude","NEP 2020 and NCF","KVS","NVS","CTET & STET","EMRS"];
+let DATA={items:[],cats:[]};
+const $=s=>document.querySelector(s),app=$('#app');
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const items=()=>DATA.items.filter(i=>i.status!=='draft');
+const ytId=u=>(String(u||'').match(/(?:v=|youtu\.be\/|embed\/)([\w-]{11})/)||[])[1];
+const allCats=()=>[...new Set([...(DATA.cats||[]),...items().map(i=>i.cat).filter(Boolean)])];
+const count=t=>items().filter(i=>i.type===t).length;
+
+function chrome(){
+ const links=Object.keys(T).map(t=>`<a href="#/lib/${SLUG[t]}">${T[t]}</a>`).join('');
+ $('#menu').innerHTML=links;$('#fmenu').innerHTML=links;
+ $('#soc').innerHTML=SITE.social.map(s=>s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" aria-label="${s.k}" title="${s.k}"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">${BR[s.k]}</svg></a>`:'').join('');
+ $('#yr').textContent=new Date().getFullYear();
+}
+function thumb(i){const id=i.type==='video'&&ytId(i.url);const src=i.thumb||(id?`https://i.ytimg.com/vi/${id}/hqdefault.jpg`:'');
+ return `<div class="thumb">${src?`<img loading="lazy" src="${esc(src)}" alt="">`:svg(I[i.type])}</div>`}
+function rcard(i){return `<a class="card" href="#/item/${esc(i.id)}">${thumb(i)}<div><span class="tag">${T[i.type]}</span>${i.cat?`<span class="tag">${esc(i.cat)}</span>`:''}</div><h3>${esc(i.title)}</h3><p>${esc(i.desc||'')}</p><span class="cnt">${i.type==='flash'?(i.cards||[]).length+' cards':i.type==='quiz'?(i.qs||[]).length+' questions':'View →'}</span></a>`}
+function empty(m){return `<div class="empty"><h3>Nothing here yet</h3><p>${m||'New material is added regularly. Explore another section meanwhile.'}</p><a class="btn o sm" href="#/lib/videos">Explore Study Material</a></div>`}
+
+/* ===== Pages ===== */
+function home(){
+ const feat=items().filter(i=>i.featured).slice(0,6),list=feat.length?feat:items().slice(-6).reverse();
+ app.innerHTML=`
+ <section class="hb"><div class="wrap"><img onerror="imgFb(this)" src="images/banner.jpg" alt="Smriti EduSaar – Education, Pedagogy, Teaching Exams. Learn, Understand, Teach." width="1600" height="640" fetchpriority="high"></div></section>
+ <section class="hero"><div class="wrap"><h1>Learn Better. Understand Deeper. Teach Smarter.</h1>
+  <p>Making education, pedagogy, and teaching-exam preparation simpler, clearer, and accessible to every learner.</p>
+  <div class="cta"><a class="btn" href="#/lib/videos">Explore Study Materials</a><a class="btn o" href="${SITE.youtube}" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></div></div></section>
+ <section class="sec"><div class="wrap"><h2>Browse Learning Resources</h2><p class="sub">Everything you need to learn, revise and practise, in one place.</p>
+  <div class="grid">${Object.keys(T).map(t=>`<a class="card" href="#/lib/${SLUG[t]}"><div class="ico">${svg(I[t])}</div><h3>${T[t]}</h3><p>${D[t]}</p><span class="cnt">${count(t)} item${count(t)===1?'':'s'}</span></a>`).join('')}</div></div></section>
+ <section class="sec"><div class="wrap"><h2>Featured Learning Resources</h2><p class="sub">Selected and recently published material.</p>
+  ${list.length?`<div class="grid">${list.map(rcard).join('')}</div>`:empty('Resources will appear here as soon as they are published.')}</div></section>
+ <section class="sec"><div class="wrap"><h2>Popular Categories</h2><p class="sub">Browse by subject or examination.</p>
+  <div class="chips">${[...new Set([...CATS,...allCats()])].map(c=>`<a class="chip" href="#/cat/${encodeURIComponent(c)}">${esc(c)}</a>`).join('')}</div></div></section>
+ <section class="sec"><div class="wrap about"><img onerror="imgFb(this)" src="images/logo.jpg" alt="Smriti EduSaar logo" loading="lazy"><div><h2>About Smriti EduSaar</h2>
+  <p>Smriti EduSaar is an educational initiative dedicated to making learning more accessible, meaningful, and organized. We bring together educational videos, study materials, revision resources, and examination-focused learning support in one place.</p>
+  <p>Our goal is to help learners understand concepts clearly, revise effectively, and prepare with greater confidence.</p><a class="btn o" href="#/about">Learn More</a></div></div></section>
+ <section class="sec"><div class="wrap"><div class="band"><div><h2>Continue Your Learning Journey on YouTube</h2><p>Explore educational explanations, teaching-exam preparation, interview discussions, and more.</p></div>
+  <div><a class="btn" href="${SITE.youtube}" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></div></div></div></section>
+ <section class="sec"><div class="wrap"><div class="final"><h2>Ready to start learning?</h2><p>Browse our study materials or ask an educational question.</p>
+  <div class="cta" style="justify-content:center"><a class="btn" href="#/lib/videos">Explore Study Materials</a><a class="btn o" href="#/ask">Ask AI a Doubt</a></div></div></div></section>`}
+
+function lib(slug,cat){
+ const t=UNSLUG[slug];let q='',lang='';
+ const draw=()=>{let r=items().filter(i=>(!t||i.type===t)&&(!cat||i.cat===cat)&&(!lang||i.lang===lang)&&(!q||(i.title+' '+(i.desc||'')+' '+(i.cat||'')+' '+(i.tags||'')).toLowerCase().includes(q)));
+  $('#res').innerHTML=r.length?`<div class="grid">${r.reverse().map(rcard).join('')}</div>`:empty(q?'No results. Try different words or clear the filters.':'');
+  $('#cnt').textContent=r.length+' result'+(r.length===1?'':'s')};
+ const langs=[...new Set(items().map(i=>i.lang).filter(Boolean))];
+ app.innerHTML=`<section><div class="wrap"><div class="crumb"><a href="#/">Home</a> / ${t?T[t]:esc(cat)}</div><h1>${t?T[t]:esc(cat)}</h1><p class="sub">${t?D[t]:'All published resources in this category.'}</p>
+  <div class="chips" style="margin-bottom:16px">${Object.keys(T).map(k=>`<a class="chip ${k===t?'on':''}" href="#/lib/${SLUG[k]}">${T[k]}</a>`).join('')}</div>
+  <div class="tb"><input id="q" type="search" aria-label="Search" placeholder="Search title, topic, tag…">${langs.length?`<select id="lg" aria-label="Language"><option value="">All languages</option>${langs.map(l=>`<option>${esc(l)}</option>`).join('')}</select>`:''}<button class="chip" id="clr">Clear filters</button></div>
+  <p id="cnt" aria-live="polite" class="sub"></p><div id="res"></div></div></section>`;
+ $('#q').oninput=e=>{q=e.target.value.toLowerCase().trim();draw()};
+ if($('#lg'))$('#lg').onchange=e=>{lang=e.target.value;draw()};
+ $('#clr').onclick=()=>{q=lang='';$('#q').value='';if($('#lg'))$('#lg').value='';draw()};draw()}
+
+function item(id){
+ const i=DATA.items.find(x=>x.id===id&&x.status!=='draft');if(!i)return app.innerHTML=`<section><div class="wrap">${empty('This resource was not found.')}</div></section>`;
+ let body='';
+ if(i.type==='video'){const y=ytId(i.url);body=y?`<iframe class="vid" loading="lazy" allowfullscreen title="${esc(i.title)}" src="https://www.youtube.com/embed/${y}"></iframe>`:'';body+=`<a class="btn o sm" target="_blank" rel="noopener noreferrer" href="${esc(i.url)}">Watch on YouTube</a>`}
+ else if(i.type==='pdf'){const u=esc(i.url);body=`<div class="cta"><a class="btn" target="_blank" rel="noopener noreferrer" href="${u}">Open PDF</a><a class="btn o" download href="${u}">Download</a></div>${/\.pdf|drive\.google/i.test(i.url)?`<iframe class="vid" style="aspect-ratio:3/4" loading="lazy" title="PDF preview" src="https://docs.google.com/viewer?embedded=true&url=${encodeURIComponent(new URL(i.url,location.href).href)}"></iframe>`:''}<p class="sub">If the preview does not load, use Open PDF.</p>`}
+ else if(i.type==='mind'){body=`<img src="${esc(i.url)}" alt="${esc(i.title)}" style="border:1px solid var(--line);border-radius:12px;margin:10px 0;cursor:zoom-in" onclick="window.open(this.src)"><a class="btn o sm" target="_blank" rel="noopener noreferrer" href="${esc(i.url)}">Open full size</a>`}
+ else if(i.type==='pod'){const sp=String(i.url).match(/open\.spotify\.com\/(episode|show)\/(\w+)/);body=sp?`<iframe style="width:100%;height:152px;border:0" loading="lazy" title="Podcast" src="https://open.spotify.com/embed/${sp[1]}/${sp[2]}"></iframe>`:i.url?`<audio controls preload="none" style="width:100%" src="${esc(i.url)}"></audio>`:''}
+ app.innerHTML=`<section><div class="wrap"><div class="crumb"><a href="#/">Home</a> / <a href="#/lib/${SLUG[i.type]}">${T[i.type]}</a></div><div class="box" style="max-width:900px"><span class="tag">${T[i.type]}</span>${i.cat?`<span class="tag">${esc(i.cat)}</span>`:''}<h1 style="margin-top:10px">${esc(i.title)}</h1><p>${esc(i.desc||'')}</p><div id="body">${body}</div></div></div></section>`;
+ if(i.type==='flash')flash(i);if(i.type==='quiz')quiz(i)}
+
+function flash(i){let n=0,show=false,c=(i.cards||[]).slice();const el=$('#body');
+ const d=()=>{if(!c.length)return el.innerHTML=empty('No cards yet.');
+  el.innerHTML=`<div class="prog"><i style="width:${(n+1)/c.length*100}%"></i></div><p class="sub">Card ${n+1} of ${c.length}</p><div class="fc"><div id="f" tabindex="0" role="button" aria-label="Flip card" class="${show?'ans':''}">${esc(c[n][show?1:0])}</div></div>
+  <div class="cta" style="justify-content:center"><button class="btn o sm" id="p">← Previous</button><button class="btn sm" id="fl">Flip</button><button class="btn o sm" id="nx">Next →</button><button class="btn o sm" id="sh">Shuffle</button></div>`;
+  const flip=()=>{show=!show;d()};$('#f').onclick=flip;$('#f').onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();flip()}};$('#fl').onclick=flip;
+  $('#p').onclick=()=>{n=(n-1+c.length)%c.length;show=false;d()};$('#nx').onclick=()=>{n=(n+1)%c.length;show=false;d()};
+  $('#sh').onclick=()=>{c.sort(()=>Math.random()-.5);n=0;show=false;d()}};d()}
+
+function quiz(i){const qs=i.qs||[];let n=0,sel=[],done=false;const el=$('#body');
+ const d=()=>{if(!qs.length)return el.innerHTML=empty('No questions yet.');
+  if(done){const s=qs.filter((q,k)=>sel[k]===q.a).length;
+   return el.innerHTML=`<h2>Score: ${s} / ${qs.length}</h2><p class="sub">This is a practice quiz, not an official examination or answer key.</p>${qs.map((q,k)=>`<div style="margin:14px 0"><b>${k+1}. ${esc(q.q)}</b>${q.o.map((o,j)=>`<div class="opt ${j===q.a?'ok':j===sel[k]?'bad':''}">${j===q.a?'✔ ':j===sel[k]?'✘ ':''}${esc(o)}</div>`).join('')}${q.exp?`<p class="sub">Explanation: ${esc(q.exp)}</p>`:''}</div>`).join('')}<button class="btn" id="rt">Retake quiz</button>`,$('#rt').onclick=()=>{n=0;sel=[];done=false;d()}}
+  const q=qs[n];el.innerHTML=`<div class="prog"><i style="width:${(n+1)/qs.length*100}%"></i></div><p class="sub">Question ${n+1} of ${qs.length}</p><h3>${esc(q.q)}</h3>${q.o.map((o,j)=>`<button class="opt ${sel[n]===j?'ok':''}" data-j="${j}">${sel[n]===j?'● ':'○ '}${esc(o)}</button>`).join('')}
+  <div class="cta"><button class="btn o sm" id="p" ${n?'':'disabled'}>← Previous</button>${n<qs.length-1?'<button class="btn sm" id="nx">Next →</button>':'<button class="btn m sm" id="sb">Submit quiz</button>'}</div>`;
+  el.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{sel[n]=+b.dataset.j;d()});
+  $('#p').onclick=()=>{n--;d()};if($('#nx'))$('#nx').onclick=()=>{n++;d()};if($('#sb'))$('#sb').onclick=()=>{done=true;d()}};d()}
+
+/* ===== Shared helpers: clipboard, toast, open-in-AI ===== */
+async function copy(t){try{await navigator.clipboard.writeText(t);return true}catch(e){const a=document.createElement('textarea');a.value=t;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();let ok=false;try{ok=document.execCommand('copy')}catch(_){}a.remove();return ok}}
+let _tt;function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(_tt);_tt=setTimeout(()=>t.classList.remove('on'),2600)}
+async function openAI(which,prompt){
+ const q=encodeURIComponent(prompt);
+ if(which==='chatgpt')window.open('https://chatgpt.com/?q='+q,'_blank','noopener');
+ else if(which==='claude')window.open('https://claude.ai/new?q='+q,'_blank','noopener');
+ else{const ok=await copy(prompt);toast(ok?'Prompt copied – paste it in Gemini':'Copy failed – please copy manually');window.open('https://gemini.google.com/app','_blank','noopener')}}
+const AIBTN=`<button class="btn sm" data-ai="chatgpt">Open in ChatGPT</button><button class="btn sm" data-ai="claude">Open in Claude</button><button class="btn sm" data-ai="gemini">Open in Gemini</button><button class="btn o sm" data-ai="copy">Copy prompt</button>`;
+function wireAI(root,getPrompt){root.querySelectorAll('[data-ai]').forEach(b=>b.onclick=async()=>{const p=getPrompt();if(!p)return toast('Please type your question first.');
+ if(b.dataset.ai==='copy')toast(await copy(p)?'Prompt copied!':'Copy failed – please copy manually');else openAI(b.dataset.ai,p)})}
+
+/* ===== Ask AI a Doubt – manual, no API / no cost / nothing to maintain ===== */
+function ask(){
+ const MODES={explain:['Explain simply','Explain the following in simple, easy language with one short example, then give 3 key points to remember.'],
+  mcq:['Practice MCQs','Create 5 multiple-choice practice questions (4 options each) on the following, with the correct answer and a one-line explanation for each.'],
+  notes:['Revision notes','Make concise bullet-point revision notes on the following, suitable for last-day revision.'],
+  ans:['Model answer','Write a model exam answer (about 150 words) for the following, with a short introduction, body and conclusion.']};
+ let mode='explain';
+ const tg=SITE.social.find(s=>s.k==='Telegram');
+ app.innerHTML=`<section><div class="wrap"><div class="box"><h1>Ask AI a Doubt</h1>
+ <p class="sub">Type your doubt, choose what you need, and open it in your favourite free AI tool – the question is already filled in for you. AI answers can contain mistakes and are not official examination answers.</p>
+ <div class="fld"><label for="aq">Your doubt or topic</label><textarea id="aq" rows="4" maxlength="1500" placeholder="e.g. Piaget ke cognitive development ke charan, ya Bloom's taxonomy…"></textarea></div>
+ <div class="fld"><label>What do you need?</label><div class="chips" id="modes">${Object.keys(MODES).map(k=>`<button type="button" class="chip ${k===mode?'on':''}" data-m="${k}">${MODES[k][0]}</button>`).join('')}</div></div>
+ <div class="fld"><label for="al">Answer language</label><select id="al"><option>Hinglish (Hindi in Roman script)</option><option>Hindi</option><option>English</option></select></div>
+ <details class="pv"><summary>Preview the prompt that will be sent</summary><textarea id="ap" rows="6" readonly aria-label="Prompt preview"></textarea></details>
+ <div class="cta" id="aib">${AIBTN}</div>
+ <p class="sub" style="margin-top:16px">Please avoid sharing personal information. The tools above open in a new tab and work with their free versions.${tg&&tg.url?` Prefer a human reply? <a href="${esc(tg.url)}" target="_blank" rel="noopener noreferrer" style="color:var(--mar)">Message us on Telegram</a>.`:''}</p></div></div></section>`;
+ const build=()=>{const t=$('#aq').value.trim().slice(0,1500);if(!t)return'';
+  return `You are a friendly tutor for Indian teaching-exam aspirants (CTET, STET, KVS, NVS, EMRS). ${MODES[mode][1]} Reply in ${$('#al').value}. If you are not sure about a fact, say so instead of guessing.\n\nTopic / doubt: ${t}`};
+ const pv=()=>$('#ap').value=build()||'(Type your doubt above to see the prompt.)';
+ $('#aq').oninput=pv;$('#al').onchange=pv;pv();
+ document.querySelectorAll('#modes .chip').forEach(b=>b.onclick=()=>{mode=b.dataset.m;document.querySelectorAll('#modes .chip').forEach(x=>x.classList.toggle('on',x===b));pv()});
+ wireAI($('#aib'),build)}
+
+/* ===== Admin: publishes by committing data.json / uploads to GitHub. Works only with YOUR GitHub token. ===== */
+const A={o:'',r:'',b:'main',token:'',authed:false,user:'',data:null,editing:null};
+const u8b64=s=>{let x='';new TextEncoder().encode(s).forEach(c=>x+=String.fromCharCode(c));return btoa(x)};
+const b64u8=s=>new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\s/g,'')),c=>c.charCodeAt(0)));
+const GH={async req(p,o={}){let r;
+ try{r=await fetch('https://api.github.com'+p,{...o,headers:{Authorization:'Bearer '+A.token,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','Content-Type':'application/json'}})}
+ catch(e){throw new Error('Network error – please check your internet connection.')}
+ let j=null;try{j=await r.json()}catch(e){}
+ if(!r.ok){const m={401:'Token is invalid or expired.',403:'This token is not allowed to do that. It needs "Contents: Read and write" on this repository.',404:'Repository or file not found. Check the owner / repository name and that the token has access to it.',409:'The site changed meanwhile. Please try again.'}[r.status]||(j&&j.message)||'GitHub error '+r.status;const e=new Error(m);e.status=r.status;throw e}
+ return j}};
+const say=(m,k)=>{const s=$('#st');if(s){s.textContent=m;s.className='st '+(k||'')}};
+async function getData(){try{const j=await GH.req(`/repos/${A.o}/${A.r}/contents/data.json?ref=${encodeURIComponent(A.b)}`);return{data:JSON.parse(b64u8(j.content)),sha:j.sha}}catch(e){if(e.status===404)return{data:{items:[]},sha:null};throw e}}
+async function commit(msg,fn){const{data,sha}=await getData();if(!Array.isArray(data.items))data.items=[];fn(data);
+ const body={message:msg,content:u8b64(JSON.stringify(data,null,1)+'\n'),branch:A.b};if(sha)body.sha=sha;
+ await GH.req(`/repos/${A.o}/${A.r}/contents/data.json`,{method:'PUT',body:JSON.stringify(body)});A.data=data}
+async function upFile(file,dir){const ext=(file.name.match(/\.\w+$/)||[''])[0].toLowerCase(),base=file.name.replace(/\.[^.]+$/,'').replace(/[^\w-]+/g,'-').slice(0,40)||'file';
+ const path=`uploads/${dir}/${Date.now().toString(36)}-${base}${ext}`;
+ const b64=await new Promise((res,rej)=>{const f=new FileReader();f.onload=()=>res(String(f.result).split(',')[1]);f.onerror=()=>rej(new Error('Could not read the file.'));f.readAsDataURL(file)});
+ await GH.req(`/repos/${A.o}/${A.r}/contents/${path}`,{method:'PUT',body:JSON.stringify({message:'Upload '+path,content:b64,branch:A.b})});return path}
+
+function adminInit(){let c={};try{c=JSON.parse(localStorage.getItem('ses_cfg')||'{}')}catch(e){}
+ const h=location.hostname,m=h.match(/^([^.]+)\.github\.io$/);
+ A.o=c.o||(m?m[1]:'');A.r=c.r||(m?(location.pathname.split('/')[1]||h):'');A.b=c.b||'main';
+ if(!A.token){try{A.token=sessionStorage.getItem('ses_t')||localStorage.getItem('ses_t')||''}catch(e){}}}
+function forget(){A.token='';A.authed=false;try{sessionStorage.removeItem('ses_t');localStorage.removeItem('ses_t')}catch(e){}}
+
+function admin(){adminInit();
+ if(A.authed)return dash();
+ if(A.token){app.innerHTML='<section><div class="wrap"><div class="box"><p>Connecting to GitHub…</p></div></div></section>';return connect()}
+ login()}
+
+function login(err){
+ app.innerHTML=`<section><div class="wrap"><div class="box"><div class="crumb"><a href="#/">Home</a> / Admin</div><h1>Admin login</h1>
+ <p class="sub">Only someone with your GitHub token can change this site. Your token is never saved in the website code – it stays in this browser only.</p>
+ <div id="st" class="st ${err?'err':''}" role="status">${esc(err||'')}</div>
+ <div class="fld"><label for="a-o">GitHub username (repository owner)</label><input id="a-o" value="${esc(A.o)}" autocomplete="off"></div>
+ <div class="fld"><label for="a-r">Repository name</label><input id="a-r" value="${esc(A.r)}" autocomplete="off"></div>
+ <div class="fld"><label for="a-b">Branch</label><input id="a-b" value="${esc(A.b)}" autocomplete="off"></div>
+ <div class="fld"><label for="a-t">GitHub token</label><input id="a-t" type="password" autocomplete="off" placeholder="github_pat_…"></div>
+ <label class="chk"><input type="checkbox" id="a-rm"> Remember me on this device (only on your own phone / laptop)</label>
+ <div class="cta"><button class="btn" id="cn">Log in</button></div>
+ <details class="pv"><summary>How do I get a token? (one-time, 2 minutes)</summary><ol>
+  <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer" style="color:var(--mar)">GitHub → Settings → Fine-grained tokens → Generate new token</a>.</li>
+  <li>Repository access: <b>Only select repositories</b> → choose this website's repository.</li>
+  <li>Permissions → Repository permissions → <b>Contents: Read and write</b>.</li>
+  <li>Set an expiry, generate, copy the token and paste it above.</li></ol></details></div></div></section>`;
+ $('#cn').onclick=()=>{A.o=$('#a-o').value.trim();A.r=$('#a-r').value.trim();A.b=$('#a-b').value.trim()||'main';A.token=$('#a-t').value.trim();
+  if(!A.o||!A.r||!A.token)return say('Please fill username, repository and token.','err');
+  try{localStorage.setItem('ses_cfg',JSON.stringify({o:A.o,r:A.r,b:A.b}));
+   if($('#a-rm').checked){localStorage.setItem('ses_t',A.token);sessionStorage.removeItem('ses_t')}else{sessionStorage.setItem('ses_t',A.token);localStorage.removeItem('ses_t')}}catch(e){}
+  say('Checking token…');connect()};
+ $('#a-t').onkeydown=e=>{if(e.key==='Enter')$('#cn').click()}}
+
+async function connect(){
+ try{await GH.req(`/repos/${A.o}/${A.r}`);
+  let u='';try{u=(await GH.req('/user')).login}catch(e){}
+  A.user=u||A.o;A.data=(await getData()).data;A.authed=true;dash()}
+ catch(e){if(e.status===401)forget();A.authed=false;login(e.message)}}
+
+const parseCards=t=>t.split('\n').map(l=>l.trim()).filter(Boolean).map(l=>{const k=l.indexOf('|');return k<0?null:[l.slice(0,k).trim(),l.slice(k+1).trim()]});
+function parseQuiz(t){const qs=[];let c=null;
+ for(const raw of t.split('\n')){const l=raw.trim();if(!l)continue;
+  if(/^q:/i.test(l)){c={q:l.slice(2).trim(),o:[],a:-1};qs.push(c)}
+  else if(!c)continue;
+  else if(/^[-*]/.test(l)){c.o.push(l.slice(1).trim());if(l[0]==='*')c.a=c.o.length-1}
+  else if(/^e:/i.test(l))c.exp=l.slice(2).trim()}
+ for(let k=0;k<qs.length;k++){const q=qs[k];if(!q.q)return{err:`Question ${k+1} has no text.`};if(q.o.length<2)return{err:`Question ${k+1} needs at least 2 options (lines starting with -).`};if(q.a<0)return{err:`Question ${k+1}: mark the correct option with * instead of -.`}}
+ return{qs}}
+const cardsTxt=c=>(c||[]).map(x=>x[0]+' | '+x[1]).join('\n');
+const quizTxt=qs=>(qs||[]).map(q=>`Q: ${q.q}\n`+q.o.map((o,j)=>(j===q.a?'* ':'- ')+o).join('\n')+(q.exp?`\nE: ${q.exp}`:'')).join('\n\n');
+
+function aiBox(type){return `<details class="pv" id="ai-box" open><summary>✨ Need help writing this? Use any free AI (no API needed)</summary>
+ <div class="tb"><input id="ai-topic" placeholder="Topic, e.g. Piaget's stages of development" aria-label="Topic"><input id="ai-n" type="number" min="3" max="30" value="10" style="max-width:90px;flex:none" aria-label="How many"><select id="ai-l" aria-label="Language" style="flex:none"><option>Hinglish (Hindi in Roman script)</option><option>Hindi</option><option>English</option></select></div>
+ <div class="cta">${AIBTN}</div><p class="sub">Open the AI, copy its reply, paste it into the box below, check it, then press Publish.</p></details>`}
+function aiPrompt(type){const t=$('#ai-topic').value.trim();if(!t)return'';const n=$('#ai-n').value||10,l=$('#ai-l').value;
+ const base=`You are helping an Indian teaching-exam (CTET / STET / KVS / NVS / EMRS) educator. Language: ${l}. Topic: ${t}.`;
+ return type==='flash'?`${base} Create ${n} flashcards. Output ONLY lines in exactly this format, with no numbering, headings or extra text:\nQuestion | Answer`
+  :`${base} Create ${n} multiple-choice questions. Output ONLY in exactly this format, with a blank line between questions, 4 options each, and a * instead of - for the single correct option:\nQ: question text\n- option\n* correct option\n- option\n- option\nE: one-line explanation`}
+
+function dyn(type,it){it=it||{};
+ const urlf=(lab,ph,file)=>`<div class="fld"><label for="f-url">${lab}</label><input id="f-url" value="${esc(it.url||'')}" placeholder="${ph}">${file?`<label class="up">…or upload a file (max 25 MB): <input type="file" id="f-file" accept="${file}"></label>`:''}</div>`;
+ if(type==='video')return urlf('YouTube video link','https://www.youtube.com/watch?v=…');
+ if(type==='pdf')return urlf('PDF link (Google Drive share link or any URL)','https://…','.pdf,application/pdf');
+ if(type==='mind')return urlf('Mind-map image link','https://… or upload below','image/*');
+ if(type==='pod')return urlf('Podcast link (Spotify episode, or audio file URL)','https://open.spotify.com/episode/…','audio/*');
+ if(type==='flash')return aiBox('flash')+`<div class="fld"><label for="f-cards">Flashcards – one per line: <code>Question | Answer</code></label><textarea id="f-cards" rows="8" placeholder="Piaget ka pehla charan? | Sensorimotor (0–2 varsh)">${esc(cardsTxt(it.cards))}</textarea></div>`;
+ return aiBox('quiz')+`<div class="fld"><label for="f-quiz">Quiz questions – <code>Q:</code> question, <code>-</code> wrong option, <code>*</code> correct option, <code>E:</code> explanation (optional). Blank line between questions.</label><textarea id="f-quiz" rows="12" placeholder="Q: Bloom's taxonomy ka sabse uchch star kaunsa hai?&#10;- Remember&#10;- Apply&#10;* Create&#10;E: Revised taxonomy mein Create sabse upar hai.">${esc(quizTxt(it.qs))}</textarea></div>`}
+function bindDyn(){const type=$('#f-type').value,f=$('#f-file');
+ if(f)f.onchange=async()=>{const file=f.files[0];if(!file)return;
+  if(file.size>25*1024*1024)return say('File is too large (max 25 MB). Please use a Google Drive / YouTube link instead.','err');
+  say('Uploading '+file.name+'…');
+  try{const p=await upFile(file,{pdf:'notes',mind:'mindmaps',pod:'podcasts'}[type]||'files');$('#f-url').value=p;say('Uploaded ✔  Now press Publish to add it to the site.','ok')}catch(e){say(e.message,'err')}};
+ if($('#ai-box'))wireAI($('#ai-box'),()=>aiPrompt(type))}
+
+async function run(msg,fn,ok){say('Saving to GitHub…');
+ try{await commit(msg,fn);A.editing=null;dash();say(ok+' The live site updates in about a minute.','ok')}catch(e){say(e.message,'err')}}
+
+function dash(){
+ const it=A.editing&&A.data.items.find(x=>x.id===A.editing)||null,type=it?it.type:'video';
+ const cats=[...new Set([...CATS,...allCats()])];
+ app.innerHTML=`<section><div class="wrap"><div class="crumb"><a href="#/">Home</a> / Admin</div>
+ <div class="adm-top"><h1>Admin</h1><div class="sub" style="margin:0">Logged in as <b>${esc(A.user)}</b> · ${esc(A.o)}/${esc(A.r)} <button class="btn o sm" id="lo">Log out</button></div></div>
+ <div id="st" class="st" role="status"></div>
+ <div class="box" style="max-width:900px"><h2>${it?'Edit content':'Add new content'}</h2>
+  <div class="two"><div class="fld"><label for="f-type">Type</label><select id="f-type">${Object.keys(T).map(k=>`<option value="${k}" ${k===type?'selected':''}>${T[k]}</option>`).join('')}</select></div>
+  <div class="fld"><label for="f-cat">Category</label><input id="f-cat" list="cl" value="${esc(it?it.cat:'')}" placeholder="e.g. History"><datalist id="cl">${cats.map(c=>`<option value="${esc(c)}">`).join('')}</datalist></div></div>
+  <div class="fld"><label for="f-title">Title *</label><input id="f-title" value="${esc(it?it.title:'')}" maxlength="140"></div>
+  <div class="fld"><label for="f-desc">Short description</label><textarea id="f-desc" rows="2" maxlength="300">${esc(it?it.desc:'')}</textarea></div>
+  <div class="two"><div class="fld"><label for="f-lang">Language</label><input id="f-lang" list="ll" value="${esc(it?it.lang:'')}" placeholder="Hindi / English / Hinglish"><datalist id="ll"><option>Hindi</option><option>English</option><option>Hinglish</option></datalist></div>
+  <div class="fld"><label for="f-tags">Tags (comma separated)</label><input id="f-tags" value="${esc(it?it.tags:'')}" placeholder="piaget, development, ctet"></div></div>
+  <div id="dyn">${dyn(type,it)}</div>
+  <label class="chk"><input type="checkbox" id="f-feat" ${it&&it.featured?'checked':''}> Show in “Featured” on the home page</label>
+  <label class="chk"><input type="checkbox" id="f-draft" ${it&&it.status==='draft'?'checked':''}> Save as draft (hidden from visitors)</label>
+  <div class="cta"><button class="btn" id="sv">${it?'Save changes':'Publish'}</button>${it?'<button class="btn o" id="cx">Cancel</button>':''}</div></div>
+ <h2 style="margin-top:34px">All content (${A.data.items.length})</h2>
+ ${A.data.items.length?`<div class="lst">${[...A.data.items].reverse().map(x=>`<div class="row"><div><span class="tag">${T[x.type]||x.type}</span>${x.status==='draft'?'<span class="tag" style="background:#c4302b22;color:#8a1d19">Draft</span>':''}${x.featured?'<span class="tag">★ Featured</span>':''}<div class="rt">${esc(x.title)}</div></div>
+  <div class="ra"><button class="btn o sm" data-act="edit" data-id="${esc(x.id)}">Edit</button><button class="btn o sm" data-act="vis" data-id="${esc(x.id)}">${x.status==='draft'?'Publish':'Hide'}</button><button class="btn o sm" style="color:#c4302b;border-color:#c4302b" data-act="del" data-id="${esc(x.id)}">Delete</button></div></div>`).join('')}</div>`:'<div class="empty">No content yet. Add your first item above.</div>'}
+ </div></section>`;
+ bindDyn();
+ $('#f-type').onchange=()=>{$('#dyn').innerHTML=dyn($('#f-type').value,it&&it.type===$('#f-type').value?it:null);bindDyn()};
+ $('#lo').onclick=()=>{forget();A.data=null;A.editing=null;login()};
+ if($('#cx'))$('#cx').onclick=()=>{A.editing=null;dash()};
+ document.querySelectorAll('[data-act]').forEach(b=>b.onclick=()=>{const id=b.dataset.id,act=b.dataset.act;
+  if(act==='edit'){A.editing=id;dash();window.scrollTo(0,0)}
+  else if(act==='del'){if(confirm('Delete this item from the site permanently?'))run('Delete '+id,d=>{d.items=d.items.filter(x=>x.id!==id)},'Deleted.')}
+  else run('Visibility '+id,d=>{const x=d.items.find(y=>y.id===id);if(x)x.status=x.status==='draft'?'published':'draft'},'Updated.')});
+ $('#sv').onclick=()=>{
+  const ty=$('#f-type').value,title=$('#f-title').value.trim();
+  if(!title)return say('Please enter a title.','err');
+  const o={type:ty,title,desc:$('#f-desc').value.trim(),cat:$('#f-cat').value.trim(),lang:$('#f-lang').value.trim(),tags:$('#f-tags').value.trim(),featured:$('#f-feat').checked,status:$('#f-draft').checked?'draft':'published'};
+  if(['video','pdf','mind','pod'].includes(ty)){const u=$('#f-url').value.trim();
+   if(!/^(https?:\/\/|uploads\/)/i.test(u))return say('Please enter a valid link (starting with https://) or upload a file.','err');
+   if(ty==='video'&&!ytId(u))return say('That does not look like a YouTube link.','err');o.url=u}
+  if(ty==='flash'){const rows=parseCards($('#f-cards').value),bad=rows.filter(r=>!r||!r[0]||!r[1]).length;
+   if(!rows.length)return say('Please add at least one flashcard.','err');
+   if(bad)return say(`${bad} line(s) are missing the “|” separator or an answer.`,'err');o.cards=rows}
+  if(ty==='quiz'){const r=parseQuiz($('#f-quiz').value);if(r.err)return say(r.err,'err');if(!r.qs.length)return say('Please add at least one question (start it with Q:).','err');o.qs=r.qs}
+  const id=it?it.id:ty+'-'+Date.now().toString(36);
+  run((it?'Update ':'Add ')+title,d=>{const k=d.items.findIndex(x=>x.id===id);if(k>=0)d.items[k]=Object.assign({},d.items[k],o,{id});else d.items.push(Object.assign({id},o))},it?'Updated ✔':'Published ✔')}}
+
+function page(t){const P={
+ about:['About Smriti EduSaar','<p>Smriti EduSaar is an educational initiative dedicated to making learning more accessible, meaningful, and organized. We bring together educational videos, study materials, revision resources, and examination-focused learning support in one place.</p><p>Our goal is to help learners understand concepts clearly, revise effectively, and prepare with greater confidence.</p>'],
+ privacy:['Privacy Policy','<p>This website does not require an account and does not collect your personal data. The Ask AI page only prepares a prompt in your browser; if you choose to open ChatGPT, Claude or Gemini, your text is sent to that service under its own terms, so please do not enter personal information. Third-party services such as YouTube, Spotify and Google Fonts may set their own cookies. <i>Owner: please review and edit this text to match your actual practices.</i></p>'],
+ terms:['Terms of Use','<p>Content is provided for educational purposes only. Practice quizzes and AI-generated answers are not official examination answers and do not guarantee results. <i>Owner: please review and edit this text.</i></p>']}[t];
+ app.innerHTML=`<section><div class="wrap"><div class="box"><div class="crumb"><a href="#/">Home</a> / ${P[0]}</div><h1>${P[0]}</h1>${P[1]}</div></div></section>`}
+
+function route(){
+ const h=location.hash.slice(2).split('/'),a=h[0]||'home';window.scrollTo(0,0);
+ document.title=(a==='home'?'':a.charAt(0).toUpperCase()+a.slice(1)+' – ')+'Smriti EduSaar';
+ if(a==='home')home();else if(a==='lib'&&UNSLUG[h[1]])lib(h[1]);else if(a==='cat')lib('',decodeURIComponent(h[1]||''));
+ else if(a==='item')item(h[1]);else if(a==='ask')ask();else if(a==='admin')admin();else if(['about','privacy','terms'].includes(a))page(a);
+ else app.innerHTML=`<section><div class="wrap"><div class="box"><h1>Page not found</h1><p>The page you are looking for does not exist.</p><a class="btn" href="#/">Go Home</a></div></div></section>`;
+ $('#nav').classList.remove('show');$('#burger').setAttribute('aria-expanded','false')}
+
+$('#burger').onclick=()=>{const s=$('#nav').classList.toggle('show');$('#burger').setAttribute('aria-expanded',s)};
+document.querySelector('.dd .nb').onclick=e=>e.target.parentElement.classList.toggle('open');
+chrome();
+fetch('data.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():{}).then(d=>{DATA=Object.assign(DATA,d)}).catch(()=>{}).finally(()=>{route();window.addEventListener('hashchange',route)});
+</script>
+</body>
+</html>
