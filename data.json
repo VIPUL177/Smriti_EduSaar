@@ -82,6 +82,30 @@
    "featured": true,
    "status": "published",
    "url": "https://youtu.be/cB5ZSGg2DMg?si=d1dZ65sOAn069tEa"
+  },
+  {
+   "id": "quiz-mv0oefnj",
+   "type": "quiz",
+   "title": "NCF 2023",
+   "desc": "",
+   "cat": "NEP 2020 and NCF",
+   "lang": "",
+   "tags": "",
+   "featured": false,
+   "status": "published",
+   "qs": [
+    {
+     "q": "NCF-SE 2023 mein school education ko kitne curricular stages mein divide kiya gaya hai?",
+     "o": [
+      "3 stages",
+      "4 stages",
+      "5 stages",
+      "6 stages"
+     ],
+     "a": 1,
+     "exp": "NCF-SE 2023 mein Foundational, Preparatory, Middle aur Secondary stages shamil hain."
+    }
+   ]
   }
  ]
 }
