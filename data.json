@@ -1,24 +1,6 @@
 {
  "items": [
   {
-   "id": "s2",
-   "type": "quiz",
-   "title": "Sample: Bloom's Taxonomy",
-   "desc": "",
-   "cat": "Pedagogy",
-   "qs": [
-    {
-     "q": "Revised Bloom's taxonomy ka sabse uchch star kaunsa hai?",
-     "o": [
-      "Remember",
-      "Apply",
-      "Create"
-     ],
-     "a": 2
-    }
-   ]
-  },
-  {
    "id": "video-mv0n9s4c",
    "type": "video",
    "title": "NCF SE 2023: Aims & Four Pillars कैसे विकसित होंगे?",
