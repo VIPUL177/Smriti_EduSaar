@@ -106,6 +106,30 @@
      "exp": "NCF-SE 2023 mein Foundational, Preparatory, Middle aur Secondary stages shamil hain."
     }
    ]
+  },
+  {
+   "id": "quiz-mv0oira2",
+   "type": "quiz",
+   "title": "NCF 2023",
+   "desc": "",
+   "cat": "NEP 2020 and NCF",
+   "lang": "",
+   "tags": "",
+   "featured": false,
+   "status": "published",
+   "qs": [
+    {
+     "q": "NEP 2020 ke anusar 5+3+3+4 curricular structure mein Foundational Stage ki avadhi kitni hai?",
+     "o": [
+      "3 years",
+      "4 years",
+      "5 years",
+      "6 years"
+     ],
+     "a": 2,
+     "exp": "Foundational Stage mein 3 saal ki preschool education aur Classes 1–2 shamil hain, jo kul 5 saal hote hain."
+    }
+   ]
   }
  ]
 }
